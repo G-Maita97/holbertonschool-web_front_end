@@ -1,1 +1,16 @@
+html {                           /* esta propiedad afectara a todo el archivo html */
+    scroll-behavior: smooth;     /* también se puede usar el valor auto */
+  }
+
+/* 
+scroll-behavior(porpiedad) = establece el comportamiento de un cuadro de desplazamiento cuando el desplazamiento 
+lo activa la navegación o las API de desplazamiento.
+
+auto(valor): El cuadro de desplazamiento se desplaza instantáneamente.
+
+smooth(valor): El cuadro de desplazamiento se desplaza suavemente utilizando una función 
+de aceleración definida por el agente de usuario durante un período de tiempo 
+definido por el agente de usuario. Los agentes de usuario deben seguir las 
+convenciones de la plataforma, si las hubiera.
+*/
 
