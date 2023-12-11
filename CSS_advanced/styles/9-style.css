@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth; /* o auto */
+  scroll-behavior: smooth; 
   font-size: 62.5%;
 }
 
@@ -12,9 +12,9 @@ body {
 }
 
 a {
-  color: var(--text-color);
-  text-decoration: none;
-}
+  color: var(--text-color);                          /* Se coloca despues de body para asegurar que ninguno de los textos este decorado */
+  text-decoration: none;                             /* propiedad especifica la decoración agregada al texto*/
+}                                                    /* Asi como "none" esta propiedad tiene mas valores que decoran texto. link: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-decoration-line */
 
 .visually-hidden {
   display: none;
