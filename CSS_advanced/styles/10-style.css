@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth; /* o auto */
+  scroll-behavior: smooth; 
   font-size: 62.5%;
 }
 
@@ -24,13 +24,14 @@ a {
   color: var(--color-primary);
 }
 
+.section-header {                                             /* En la clases seccion en header afectra*/
+  text-align: var(--section-header-align);                    /*text-align: especifica la alineación horizontal del texto en un elemento. uso de sus valores link: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-align */
+}
+
 .section-tagline {
   color: var(--color-primary);
 }
 
-.section-header {
-  text-align: var(--section-header-align);
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
@@ -38,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --color-primary: #D73953;
+  --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
@@ -56,5 +57,5 @@ h1, h2, h3, h4, h5, h6 {
   --line-height-small: 1.2;
   --line-height-base: 1.5;
   --line-height-big: 1.8;
-  --section-header-align: center;
+  --section-header-align: center;                                   /* (propiedad a utilizar align)nueva propiedad personalizada con 3 tags y valor center*/
 }
