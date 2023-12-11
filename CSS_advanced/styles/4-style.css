@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth; /* o auto */
+  scroll-behavior: smooth;
 }
 
 body {
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {                          /*Nueva declaración dirigida 
 }
 
 :root {
-  --color-primary: #D73953;
+  --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
