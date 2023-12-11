@@ -7,7 +7,7 @@ body {
   color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
-  font-weight: var(--font-weight-regular);
+  font-weight: var(--font-weight-regular);                    /*Utilizacion del grosor de letra regular(normal) 400*/
 }
 
 a {
@@ -28,11 +28,11 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);                       /*Utilizacion del grosor de letra blod(negrita) 700*/
 }
 
 :root {
-  --color-primary: #D73953;
+  --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
@@ -45,6 +45,6 @@ h1, h2, h3, h4, h5, h6 {
   --font-size-large: 1.8rem;
   --font-size-x-large: 2.3rem;
   --font-size-xx-large: 4.8rem;
-  --font-weight-regular: 400;
-  --font-weight-bold: 700;
+  --font-weight-regular: 400;                                     /*font-weight propiedad establece qué tan gruesos o finos deben mostrarse los caracteres del texto.*/
+  --font-weight-bold: 700;                                        /*Define caracteres desde finos hasta gruesos. 400 es lo mismo que normal y 700 es lo mismo que en negrita*/
 }
