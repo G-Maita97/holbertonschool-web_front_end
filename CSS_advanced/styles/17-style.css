@@ -82,7 +82,7 @@ a:active {
 }
 
 .footer {
-  padding: var(--footer-padding);                                      /*Relleno en los 4 lados 0 0 3rem*/
+  padding: var(--footer-padding);                                      /*relleno en los 4 lados 0 0 3rem*/
 }
 
 h1, h2, h3, h4, h5, h6 {
