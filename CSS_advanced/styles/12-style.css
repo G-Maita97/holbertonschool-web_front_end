@@ -28,19 +28,19 @@ a {
   text-align: var(--section-header-align);
 }
 
-.section-tagline {
-  color: var(--color-primary);
-  font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold);
-}
-
-.section-title {
+.section-title {                                   /*Creacion de nueva etiqueta y utilizacion de variables definidas en root*/
   font-family: var(--font-family-title);
   font-size: var(--font-size-xx-large);
   font-weight: var(--font-weight-bold);
   margin: var(--section-title-margin);
   color: var(--section-title-color);
+}
+
+.section-tagline {
+  color: var(--color-primary);                                    
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,6 +69,6 @@ h1, h2, h3, h4, h5, h6 {
   --line-height-big: 1.8;
   --section-header-align: center;
   --section-tagline-transform: uppercase;
-  --section-title-margin: 0;
-  --section-title-color: var(--color-black);
+  --section-title-margin: 0;                                  /*margin(propiedad) - e utilizan para crear espacio alrededor de los elementos, fuera de los bordes definidos.*/
+  --section-title-color: var(--color-black);                  /*Reutilizacion de variable para dar un valor a la nueva variable*/
 }
