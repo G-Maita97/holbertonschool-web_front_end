@@ -1,12 +1,12 @@
 html {
-  scroll-behavior: smooth; /* o auto */
-  font-size: 62.5%;
-}
+  scroll-behavior: smooth;
+  font-size: 62.5%;                                  /*establece el tamaño de la fuente. Cambia el tamaño de fuente.*/
+}                                                    /* El texto estará al 62.50 de su tamaño original*/
 
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-medium);                /*Reutilizacion de la variable asiganada en root*/
 }
 
 a {
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --color-primary: #D73953;
+  --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-ligth-grey: #f3f3f3;
@@ -38,9 +38,9 @@ h1, h2, h3, h4, h5, h6 {
   --text-color: var(--color-black);
   --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-size-small: 1.2rem;
-  --font-size-medium: 1.6rem;
-  --font-size-large: 1.8rem;
-  --font-size-x-large: 2.3rem;
-  --font-size-xx-large: 4.8rem;
+  --font-size-small: 1.2rem;                      /*Explicacion para tamaños de fuentes Link: https://www.w3schools.com/cssref/pr_font_font-size.php*/
+  --font-size-medium: 1.6rem;                                            
+  --font-size-large: 1.8rem;                                             
+  --font-size-x-large: 2.3rem;                                           
+  --font-size-xx-large: 4.8rem;                                          
 }
