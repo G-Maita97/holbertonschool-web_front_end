@@ -1,13 +1,14 @@
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* o auto */
 }
 
 body {
-  color: var(--text-color);              /*Seteo al valor de la propiedad color por variable definida en root*/
+  color: var(--text-color);
+  font-family: var(--font-family-base);
 }
 
 a {
-  color: var(--text-color);              /*Seteo al valor de la propiedad color por variable definida en root*/
+  color: var(--text-color);
 }
 
 .visually-hidden {
@@ -15,18 +16,24 @@ a {
 }
 
 .card-category {
-  color: var(--color-primary);           /*Seteo al valor de la propiedad color por variable definida en root*/
+  color: var(--color-primary);
 }
 
 .section-tagline {
-  color: var(--color-primary);           /*Seteo al valor de la propiedad color por variable definida en root*/
+  color: var(--color-primary);
 }
 
-:root {                                  /*Raiz, para definir variables*/
-  --color-primary: #d73953;            /*De esta forma se crea una variable*/
+h1, h2, h3, h4, h5, h6 {                          /*Nueva declaración dirigida a los 6 niveles de etiquetas de encabezado. */
+  font-family: var(--font-family-title);          /* propiedad (font-family) para tipo de fuente contiene como valor el var definido en root*/
+}
+
+:root {
+  --color-primary: #D73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
-  --text-color: var(--color-black);      /*De esta forma se crea una variable reutilizanzo otra variable ya definida como valor*/
-}
+  --text-color: var(--color-black);
+  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;   /*Lista de propiedad "font-family" = esta debe contener varios nombres de fuentes como sistema "alternativo" */
+  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}     
