@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--text-color);              /*Seteo al valor de la propiedad color por variable definida en root*/
+}
+
+a {
+  color: var(--text-color);              /*Seteo al valor de la propiedad color por variable definida en root*/
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: var(--color-primary);           /*Seteo al valor de la propiedad color por variable definida en root*/
+}
+
+.section-tagline {
+  color: var(--color-primary);           /*Seteo al valor de la propiedad color por variable definida en root*/
+}
+
+:root {                                  /*Raiz, para definir variables*/
+  --color-primary: #d73953;            /*De esta forma se crea una variable*/
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);      /*De esta forma se crea una variable reutilizanzo otra variable ya definida como valor*/
+}
