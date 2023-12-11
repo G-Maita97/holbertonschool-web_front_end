@@ -1,3 +1,23 @@
-html {                           /* esta propiedad afectara a todo el archivo html */
-    scroll-behavior: smooth;     /* también se puede usar el valor auto */
+  html {                           
+    scroll-behavior: smooth;     
+  }
+
+  body {                          /* afecta todo texto o decoración del mismo que este adentro del tag body*/
+    color: #161616;             /*código de color hexadecimal*/
+  }
+  
+  a {                             /* afecta todos los tag a (anchor) (<a></a>) */
+    color: #161616;        
+  }
+  
+  .visually-hidden {              /* Selector de la clase*/
+    display: none;                /* dsicplay(propiedad): establece si un elemento se trata como un bloque o un cuadro en línea y el diseño utilizado para sus elementos secundarios, como diseño de flujo , cuadrícula o flexión .*/
+  }                               /*Como el none display tambien tiene mas valores. link: https://developer.mozilla.org/en-US/docs/Web/CSS/display*/
+  
+  .card-category {                /* Selector de la clase*/
+    color: #D73953;
+  }
+  
+  .section-tagline {              /* Selector de la clase*/
+    color: #D73953;
   }
