@@ -1,0 +1,3 @@
+html {                           /* esta propiedad afectara a todo el archivo html */
+    scroll-behavior: smooth;     /* también se puede usar el valor auto */
+  }
