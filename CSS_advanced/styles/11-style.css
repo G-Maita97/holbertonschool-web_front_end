@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth; /* o auto */
+  scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
@@ -24,15 +24,15 @@ a {
   color: var(--color-primary);
 }
 
-.section-tagline {
-  color: var(--color-primary);
-  font-family: var(--font-family-title);
-  text-transform: var(--section-tagline-transform);
-  font-weight: var(--font-weight-bold);
-}
-
 .section-header {
   text-align: var(--section-header-align);
+}
+
+.section-tagline {
+  color: var(--color-primary);
+  font-family: var(--font-family-title);                            /*Utilizacion de la variable definida en roor para Estableacer su valor*/
+  text-transform: var(--section-tagline-transform);                 /*Utilizacion de la variable definida en roor para Estableacer su valor*/  
+  font-weight: var(--font-weight-bold);                             /*Utilizacion de la variable definida en roor para Estableacer su valor*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 :root {
-  --color-primary: #D73953;
+  --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
@@ -59,6 +59,6 @@ h1, h2, h3, h4, h5, h6 {
   --line-height-small: 1.2;
   --line-height-base: 1.5;
   --line-height-big: 1.8;
-  --section-header-align: center;
-  --section-tagline-transform: uppercase;
+  --section-header-align: center;     
+  --section-tagline-transform: uppercase;                               /*uppercase(valor de propiedad text-transform) = Es una palabra clave que convierte todos los caracteres a mayúsculas.*/
 }
