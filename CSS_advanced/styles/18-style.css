@@ -72,7 +72,7 @@ a:active {
   padding: var(--section-header-padding);
 }
 
-.navbar-menu {
+.navbar-menu {                            /*NEW*/
   float: right;
 }
 
