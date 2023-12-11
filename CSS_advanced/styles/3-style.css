@@ -2,22 +2,22 @@
     scroll-behavior: smooth;     
   }
 
-  body {                          /* afecta todo texto o decoración del mismo que este adentro del tag body*/
-    color: #161616;             /*código de color hexadecimal*/
+  body {                          
+    color: #161616;             
   }
   
-  a {                             /* afecta todos los tag a (anchor) (<a></a>) */
+  a {                             
     color: #161616;        
   }
   
-  .visually-hidden {              /* Selector de la clase*/
-    display: none;                /* dsicplay(propiedad): establece si un elemento se trata como un bloque o un cuadro en línea y el diseño utilizado para sus elementos secundarios, como diseño de flujo , cuadrícula o flexión .*/
-  }                               /*Como el none display tambien tiene mas valores. link: https://developer.mozilla.org/en-US/docs/Web/CSS/display*/
+  .visually-hidden {              
+    display: none;                
+  }                               
   
-  .card-category {                /* Selector de la clase*/
+  .card-category {               
     color: #D73953;
   }
   
-  .section-tagline {              /* Selector de la clase*/
+  .section-tagline {
     color: #D73953;
   }
