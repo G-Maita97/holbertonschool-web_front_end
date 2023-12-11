@@ -10,22 +10,22 @@ body {
   font-weight: var(--font-weight-regular);
   min-height: var(--line-height-base);
 }
-
-a:link {
-  color: var(--text-color);
+                                                      
+a:link {                                              /*Aseguraando que los anclajes solo afectaran a los que tienen hipervinculo con a:*/
+  color: var(--text-color);                            
   text-decoration: none;
 }
 
-a:visited {
+a:visited {                                           /*estado visitado para el enlace y cambiando a estilo cursivo el texto*/
   font-style: italic;
 }
 
-a:hover {
-  text-decoration: underline;
+a:hover {                                             /* :hover(pseudo-code) =  coincide cuando el usuario interactúa con un elemento con un dispositivo señalador, */
+  text-decoration: underline;                         /* Texto decorado con valor delineado*/
 }
 
-a:active {
-  background-color: var(--color-light-grey);
+a:active {                                             /*estado activo del enlace, cambio de color de fondo*/
+  background-color: var(--color-light-grey);           /*Los estilos definidos por la pseudoclasa :activeserán anulados por cualquier pseudoclasa posterior relacionada con el enlace ( :link, :hovero :visited). Link: https://developer.mozilla.org/es/docs/Web/CSS/:active: */
 }
 
 .visually-hidden {
