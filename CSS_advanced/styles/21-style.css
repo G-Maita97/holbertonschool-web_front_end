@@ -70,7 +70,7 @@ ul.row {
   width: 50%;
 }
 
-[class^="col-"] {
+[class^="col-"] {                                       /* Este es un selector de atributos que selecciona cualquier elemento cuya clase comienza con "col-". El operador ^= significa "comienza con" en este contexto. Por lo tanto, este selector seleccionará elementos que tengan una clase que comience con la cadena "col-".*/
   float: left;
   padding: 0.5rem;
 }
