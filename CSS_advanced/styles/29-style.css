@@ -164,7 +164,7 @@ ul.row {
   color: var(--nav-item-link-hover);
 }
 
-.nav .nav-link::before {
+.nav .nav-link::before {           /*.nav .nav-link::before: Este es un selector que apunta a los pseudoelementos ::before de elementos con la clase "nav-link" que son descendientes de elementos con la clase "nav". En otras palabras, se aplica a la creación de un elemento ficticio antes de los enlaces de navegación que están dentro de elementos con la clase "nav".*/
   content: "";
   position: absolute;
   top: 0;
@@ -174,7 +174,7 @@ ul.row {
   height: 0.2rem;
 }
 
-.nav .nav-item:hover .nav-link::before {
+.nav .nav-item:hover .nav-link::before {     /*.nav .nav-item:hover .nav-link::before: Este es un selector que apunta a los pseudoelementos ::before de los enlaces de navegación que están dentro de elementos con la clase "nav-link", que a su vez están dentro de elementos con la clase "nav-item", y que están siendo activados por el evento hover (cuando el mouse pasa sobre ellos).*/
   background-color: var(--color-primary);
   width: 100%;
 }
@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6 {
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
-  --nav-item-link-hover: var(--color-white);
+  --nav-item-link-hover: var(--color-white);                             /*Cambio de valor*/
   --section-tagline-margin: 0;
   --button-display: inline-block;
   --button-padding: 1.5rem 3rem;
