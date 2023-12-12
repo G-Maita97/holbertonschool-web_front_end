@@ -72,18 +72,18 @@ a:active {
   padding: var(--section-header-padding);
 }
 
-.navbar-menu {                            /*NEW*/
-  float: right;
+.navbar-menu {                            /*Creacion selector para clase navbar-menu*/
+  float: right;                           /*Propiedad float con valor right para que flote a la derecha*/
 }
 
-.nav {
+.nav {                                     /*Creacion selector para clase nav*/
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none;                        /*Informacion para list-style link: https://www.w3schools.com/css/css_list.asp*/
   text-align: center;
 }
 
-.nav .nav-item {
+.nav .nav-item {                                          /*Creacion selector para clase nav y nav-item (se colocan los dos porque las propiedas que utilizaran son las mismas*/
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -92,13 +92,13 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
+.nav .nav-link {                                           /*Creacion selector para clase nav y nav-link (se colocan los dos porque las propiedas que utilizaran son las mismas*/
   display: block;
   padding: 0.5rem 1rem;
 }
 
-.nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
+.nav .nav-link:hover {                                      /*Creacion selector para clase nav y nav-link:hover (se colocan los dos porque las propiedas que utilizaran son las mismas*/ 
+  color: var(--nav-item-link-hover);                        /*esta propiedad solo afectara a nav-link cuando el mouse pase por ahi*/
 }
 
 .section-body {
