@@ -55,11 +55,11 @@ ul.row {
   padding: 0;
   list-style: none;
 }
-
-.row::after {
-  content: "";
+                                                       /* Esto selecciona el seudoelemento after de cualquier elemento que tenga la clase "row". Los seudoelementos en CSS permiten agregar contenido o estilos a partes específicas de un elemento sin necesidad de modificar directamente el HTML.*/
+.row::after {                                          /* Este enfoque es comúnmente conocido como "clearfix" y se utiliza para evitar problemas de diseño cuando se utilizan elementos flotantes en una página web.*/                       
+  content: ""; 
   display: table;
-  clear: both;
+  clear: both;                                          /*Esta propiedad asegura que no haya elementos flotando a la izquierda ni a la derecha del seudoelemento. */
 }
 
 .col-1-3 {
