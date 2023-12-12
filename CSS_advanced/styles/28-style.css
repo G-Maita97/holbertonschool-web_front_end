@@ -10,14 +10,14 @@ html {
 }
 
 .header {
-  padding: var(--header-padding);
+  padding: var(--header-padding);                /*valores para elementos del paddig*/       
 }
 
 .header-logo {
-  position: var(--header-logo-position);
+  position: var(--header-logo-position);           /*position de su contenido*/
 }
 
-.header-logo a {
+.header-logo a {                                      /*Accer a link dentro de la clss header-logo*/
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
   top: var(--header-logo-link-top);
