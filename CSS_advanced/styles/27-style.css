@@ -154,15 +154,15 @@ ul.row {
 }
 
 .section-hero {
-  background-size: 90rem auto;
+  background-size: 90rem auto;                         /* Estables Width 10rem y height auto*/
 }
 
-.section-hero .section-title {
-  margin-bottom: 5rem;
+.section-hero .section-title {                       
+  margin-bottom: 5rem;                                  /*Link: https://www.w3schools.com/css/css_margin.asp*/
 }
 
 .section-hero .section-inner {
-  padding: 10rem 40rem 2rem 0;
+  padding: 10rem 40rem 2rem 0;                            /*paddig 4 valores*/
 }
 
 .card-services .card-title {
