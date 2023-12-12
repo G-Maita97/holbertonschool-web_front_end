@@ -63,7 +63,7 @@ a:active {
   text-decoration: var(--button-hover-text-decoration);
   background: var(--button-hover-background);
   transition-duration: var(--transition-duration);
-  transition-property: color, background-color;
+  transition-property: color, background-color;                         /*esta línea de código CSS establece que se aplicará una transición suave a las propiedades color y background-color cuando experimenten cambios en un elemento específico.*/
 }
 
 .visually-hidden {
@@ -174,7 +174,7 @@ ul.row {
   background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);        /* la línea de código establece una transición para las propiedades CSS especificadas, utilizando variables CSS para controlar la duración y la función de temporización de la transición. Esto proporciona flexibilidad al permitir ajustar fácilmente estos aspectos en otros lugares de la hoja de estilo sin tener que modificar directamente el código.*/
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -204,7 +204,7 @@ ul.row {
 }
 
 .card-work:hover .card-outer {
-  transform: scale(0.95);
+  transform: scale(0.95);                                     /*Define una transformación a escala 2D.*/
 }
 
 .card-work .card-image img {
@@ -215,7 +215,7 @@ ul.row {
 }
 
 .card-work:hover .card-image {
-  transform: scale(1.2);
+  transform: scale(1.2);                                                    /* Define una transformación a escala 2D. La propiedad transform aplica una transformación 2D o 3D a un elemento. Esta propiedad le permite rotar, escalar, mover, sesgar, etc., elementos.*/
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
@@ -394,6 +394,6 @@ h1, h2, h3, h4, h5, h6 {
   --header-logo-link-position: absolute;
   --header-logo-link-top: -1rem;
   --header-logo-link-left: 0;
-  --transition-duration: .3s;
-  --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01)
+  --transition-duration: .3s;                                                  /*The transition-duration property specifies how many seconds (s) or milliseconds (ms) a transition effect takes to complete.*/
+  --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01)                 /*Explicacion: https://www.w3schools.com/cssref/tryit.php?filename=trycss_func_cubic-bezier*/      
 }
