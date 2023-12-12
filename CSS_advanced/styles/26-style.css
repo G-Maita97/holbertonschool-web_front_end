@@ -174,14 +174,14 @@ ul.row {
 }
 
 .card-testimonial .card-avatar {
-  border-radius: 50%;
+  border-radius: 50%;                              /*border-radius priedad link:define el radio de un esquinas del elemento.*/
   width: 10rem;
   height: 10rem;
 }
 
-.card-testimonial .card-quote cite {
+.card-testimonial .card-quote cite {              /* Afecta a la etiqueta cite que esta dentro de la class card-quote que esta dentro de la class card-testimonial */
   display: block;
-  padding-top: 1rem;
+  padding-top: 1rem;                                /*padding-top (el paddig de arriba) https://www.w3schools.com/css/css_padding.asp*/
   color: var(--color-primary);
 }
 
