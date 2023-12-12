@@ -195,16 +195,16 @@ ul.row {
   padding: 10rem 40rem 2rem 0;
 }
 
-.card-work .card-outer {
+.card-work .card-outer {       
   position: relative;
-  overflow: hidden;
+  overflow: hidden;                                      /*Acomodar como barras de desplazamiento vertival *https://www.w3schools.com/css/css_overflow.asp*/
 }
-
-.card-work .card-image img {
+ 
+.card-work .card-image img {                             /*Afecta a las imagnes within card-image within card-work*/         
   height: 30rem;
   width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
+  object-fit: cover;                                     /* object-fit se utiliza para especificar cómo un <img> o <vídeo> debería cambiar de tamaño para que se ajuste a su contenedor.*/
+  vertical-align: bottom;                                /*Informacion de la propiedad Link: https://www.w3schools.com/cssref/pr_pos_vertical-align.php*/
 }
 
 .card-work .card-inner {
@@ -212,11 +212,11 @@ ul.row {
   top: -0.1rem;
   left: -0.1rem;
   right: -0.1rem;
-  z-index: 1;
+  z-index: 1;                                            /z-index especifica el orden de pila de un elemento. o adelante o atras*/
 }
 
 .card-work:hover .card-inner {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);               /*La función rgba() define colores utilizando el modelo Rojo-verde-azul-alfa (RGBA).*/
 }
 
 
@@ -244,7 +244,7 @@ ul.row {
 }
 
 .card-work:hover .card-title {
-  opacity: 1;
+  opacity: 1;                                /*define la transparencia de un elemento, esto es, en qué grado se superpone el fondo al elemento.*/
 }
 
 .card-services .card-title {
