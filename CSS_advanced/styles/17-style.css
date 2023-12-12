@@ -64,19 +64,19 @@ a:active {
 }
 
 .section {
-  padding: var(--section-padding);
-}
+  padding: var(--section-padding);                                  /*Creacion del selector para la calse section y agg relleno a los 4 lados*/
+}                                                                   /*Relleno en los 4 lados 5rem 0*/
 
 .section-header {
-  text-align: var(--section-header-align);                
+  text-align: var(--section-header-align);                            /*Creacion del selector para la calse section-headr y agg relleno a los 4 lados*/
   padding: var(--section-header-padding);                             /*Relleno en los 4 lados 0 0 3rem*/
 }
 
-.section-body {
+.section-body {                                                       /*Creacion del selector para la calse section-body y agg relleno a los 4 lados*/
   padding: var(--section-body-padding);                               /*Relleno en los 4 lados 0 0 3rem*/
 }
 
-.section-footer {
+.section-footer {                                                     /*Creacion del selector para la calse section-footer y agg relleno a los 4 lados*/
   padding: var(--section-footer-padding);                             /*Relleno en los 4 lados 0 0 3rem*/
   text-align: var(--section-footer-align);                             /*Alineamiento con center*/
 }
