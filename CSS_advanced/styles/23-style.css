@@ -164,8 +164,8 @@ ul.row {
   display: block;
 }
 
-.social-link > svg{
-  fill: var(--text-color);
+.social-link > svg{                                 /*Este es un selector de descendientes directos (>) que selecciona elementos <svg> que son hijos directos de elementos con la clase "social-link". Esto significa que solo se aplicará a elementos <svg> que estén directamente anidados dentro de elementos con la clase "social-link".*/
+  fill: var(--text-color);                           /*Establece la propiedad fill del elemento <svg>. La propiedad fill se utiliza para definir el color de relleno de un elemento SVG. En este caso, se establece el color de relleno utilizando la variable CSS --text-color. Las variables CSS (var(--text-color)) son una característica que permite almacenar valores y reutilizarlos en varias partes de una hoja de estilo.*/
 }
 
 h1, h2, h3, h4, h5, h6 {
