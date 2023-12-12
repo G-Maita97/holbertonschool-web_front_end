@@ -34,7 +34,7 @@ a:active {
   background-color: var(--color-light-grey);
 }
 
-.button {
+.button {                                                 /*Creacion de la clss button y agg de propiedades creadas*/
   display: var(--button-display);
   padding: var(--button-padding);
   border: var(--button-border);
@@ -43,7 +43,7 @@ a:active {
   text-decoration: var(--button-text-decoration);
 }
 
-.button:hover {
+.button:hover {                                            /*Creacion de la clss button y agg de propiedades creadas, estas propiedades tendran efecto cuando el mouse pase por encima del butoon*/
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
   background: var(--button-hover-background);
@@ -116,8 +116,8 @@ ul.row {
 [data-section-theme="dark"] {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
-  background-color: var(--color-black);
-  --button-color: var(--color-white);
+  background-color: var(--color-black);                                  
+  --button-color: var(--color-white);                                  /*Agg propiedad con respecto al button*/
 }
 
 .navbar-menu {
