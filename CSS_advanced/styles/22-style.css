@@ -98,7 +98,7 @@ ul.row {
   padding: var(--section-header-padding);
 }
 
-[data-section-theme="dark"] {
+[data-section-theme="dark"] {                                           /*Selector para Atributo en el File Html*/
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background-color: var(--color-black);
